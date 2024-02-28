@@ -7,6 +7,84 @@
     <link rel="stylesheet" href="style.css">
     <title>GRUPO SOLDERA - Agricultura & Pecuária</title>
 </head>
+<style>
+    body{
+        background-image: linear-gradient(72deg, #a4c67e 1%, #096b2f 99%);
+    }
+    input{
+        display: none;
+    }
+    .content{
+        height: 520px;
+        width: 935px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+    }
+    .navigation{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+    }
+    .bar{
+        width: 70px;
+        height: 17px;
+        border: 2px solid #096b2f;
+        margin: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bar:hover{
+        background-color: #a4c67e;
+    }
+    .slides{
+        display: flex;
+        width: 900%;
+        height: 100%;
+    }
+    .slide{
+        width: 12%;
+        transition: 0.6s;
+
+    }
+    .slide img{
+        width: 100%;
+        height: 100%;
+    }
+    #slide1:checked~.s1{
+        margin-left: 0;
+    }
+    #slide2:checked~.s1{
+        margin-left: -12%;
+    }
+    #slide3:checked~.s1{
+        margin-left: -24%;
+    }
+    #slide4:checked~.s1{
+        margin-left: -36%;
+    }
+    #slide5:checked~.s1{
+        margin-left: -48%;
+    }
+    #slide6:checked~.s1{
+        margin-left: -60%;
+    }
+    #slide7:checked~.s1{
+        margin-left: -72%;
+    }
+    #slide8:checked~.s1{
+        margin-left: -84%;
+    }
+    #slide9:checked~.s1{
+        margin-left: -96%;
+    }
+</style>
 <body>
     <header>
         <div><img src="imagens/logopq.png" alt="Logo Grupo Soldera">
@@ -25,6 +103,58 @@
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+            <input type="radio" name="slide" id="slide6">
+            <input type="radio" name="slide" id="slide7">
+            <input type="radio" name="slide" id="slide8">
+            <input type="radio" name="slide" id="slide9">
+
+            <div class="slide s1">
+                <img src="imagens/dia/pivo.jpg" alt="pivô">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/sede.jpg" alt="sede">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/sede2.jpg" alt="sede2">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/Plantadeira.png" alt="plantadeira">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/plantio.jpg" alt="plantio">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/plantio2.jpg" alt="plantio2">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/plantio3.jpg" alt="plantio3">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/lavoura.jpg" alt="lavoura">
+            </div>
+            <div class="slide">
+                <img src="imagens/dia/colheita.jpg" alt="colheita">
+            </div>
+        </div>
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+            <label class="bar" for="slide6"></label>
+            <label class="bar" for="slide7"></label>
+            <label class="bar" for="slide8"></label>
+            <label class="bar" for="slide9"></label>
+        </div>
+    </div>
     <footer>
         <p>Grupo AWG Soldera  2024 . Desenvolvimento próprio - Todos os direitos reservados.</p> 
     </footer>

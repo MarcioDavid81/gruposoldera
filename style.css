@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 a{
     text-decoration: none;
@@ -64,6 +65,20 @@ article h2{
 .container{
     line-height: 2em;
     padding-inline: 20px;
+}
+.mapbox{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;    
+    width: 98.9vw;
+    height: 100vh;
+    background-color: var(--cor1);
+}
+.mapbox iframe{
+    display: flex;
+    position: absolute;
+    text-align: center;
 }
 footer{
     background-image: linear-gradient(to top, #a4c67e, #096b2f);
