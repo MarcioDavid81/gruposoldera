@@ -1,5 +1,85 @@
 @charset "UTF-8";
-body{background-image: linear-gradient(to bottom, #0D0D0D, #038C33, #5DA676);}
-.top-inner{color: rgba(255, 255, 255, 0.744);}
-a{color:rgba(251, 251, 251, 0.744) ;}
-.header-inner{color: rgba(255, 255, 255, 0.744);}
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@font-face{ font-family: 'Geometr';
+    src: url('fontes/geometr212-bkcn-bt-book.ttf'), format('true type'); font-weight: normal; font-style: normal;}
+    :root{
+        --font0: Tahoma, Geneva, Verdana, sans-serif;
+        --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        --font2: "Fugaz One", sans-serif;
+        --font3: "Geometr", sans-serif;
+
+        --cor0: #096b2f;
+        --cor1: #a4c67e;
+        --cor2: #000000;
+    }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, #096b2f, #a4c67e);
+}
+header>h1{
+    font-family: var(--font0);
+}
+header>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: var(--cor0);
+}  
+nav a{
+    padding: 5px;
+    color: var(--cor3);
+    text-decoration: none;
+    font-family: var(--font2);
+}
+nav a:hover{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+main{
+    background-color: var(--cor0);
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+article{
+    padding: 5px;
+    text-align: justify;
+    width: 90vw;
+    height: 110vh;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor2);
+    border-radius: 10px;
+}
+article h2{
+    font-family: var(--font2);
+    padding: 2px;
+}
+article p{
+    font-family: var(--font1);
+}
+
+
+footer{
+    background-image: linear-gradient(to top, #a4c67e, #096b2f);
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 12px;
+}
+footer a{
+    color: var(--cor2);
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
