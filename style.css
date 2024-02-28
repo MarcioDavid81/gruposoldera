@@ -15,57 +15,56 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
 
 header{
     text-align: center;
+    justify-content:center;
     background-image: linear-gradient(to top, #096b2f, #a4c67e);
-}
-header>h1{
     font-family: var(--font0);
 }
-header>p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-nav{
-    background-color: var(--cor0);
-}  
-nav a{
-    padding: 5px;
-    color: var(--cor3);
-    text-decoration: none;
+.menu{
+    display: flex;
+    background-image: linear-gradient(to top, #a4c67e, #096b2f);
+    color: var(--cor2);
     font-family: var(--font2);
 }
-nav a:hover{
-    background-color: var(--cor1);
+.menu li a{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu li:hover{
+    background-color: #a4c67e;
     border-radius: 10px;
     text-decoration: underline;
 }
-main{
-    background-color: var(--cor0);
-}
-section{
-    display: flex;
-    justify-content: center;
-}
 article{
-    padding: 5px;
-    text-align: justify;
-    width: 90vw;
-    height: 110vh;
+    width: 97.59vw;
     background-color: var(--cor1);
-    border: 1px solid var(--cor2);
-    border-radius: 10px;
+    align-items: center;
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px;
+    font-family: var(--font3);
 }
 article h2{
     font-family: var(--font2);
-    padding: 2px;
+    font-size: 2rem;
+    text-align: center;
 }
-article p{
-    font-family: var(--font1);
+.foto{
+    display: flex;
+    justify-content: center;
 }
-
-
+.container{
+    line-height: 2em;
+    padding-inline: 20px;
+}
 footer{
     background-image: linear-gradient(to top, #a4c67e, #096b2f);
     text-align: center;
