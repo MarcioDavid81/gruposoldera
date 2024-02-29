@@ -15,9 +15,8 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
-    
-}
+    list-style: none;        
+    }
 a{
     text-decoration: none;
 }
@@ -58,9 +57,8 @@ section{display: flex;
         justify-content: center;
         flex-direction: column;
         padding: 10px 45px;
-        width: 500px;
+        width: 93%;
         height: 600px;
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
 section h2{color: rgb(0, 0, 0);
     font-size: 40px;
@@ -105,7 +103,7 @@ form button{padding: 15px;
             margin-bottom: 20px;
             font-family: var(--font3);
     }       
-form button:hover{background: var(--cor0);
+form button:hover{background-image: linear-gradient(72deg,#a4c67e 1%, #096b2f 99%);
                   color: aliceblue;
                   border-radius: 16px;
 }

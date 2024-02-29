@@ -38,6 +38,7 @@ header{
     display: block;
     padding-left: 10px;
     padding-right: 10px;
+    color: var(--cor2);
 }
 .menu li:hover{
     background-color: #a4c67e;
@@ -46,7 +47,7 @@ header{
 }
 article{
     width: 97.59vw;
-    background-color: var(--cor1);
+    background-image: linear-gradient(72deg, #a4c67e 1%, #096b2f 99%);
     align-items: center;
     text-align: justify;
     text-indent: 40px;
@@ -73,7 +74,7 @@ article h2{
     position: relative;    
     width: 98.9vw;
     height: 100vh;
-    background-color: var(--cor1);
+    background-image: linear-gradient(72deg, #a4c67e 1%, #096b2f 99%);
 }
 .mapbox iframe{
     display: flex;

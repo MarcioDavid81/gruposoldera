@@ -38,6 +38,7 @@ header{
     display: block;
     padding-left: 10px;
     padding-right: 10px;
+    color: var(--cor2);
 }
 .menu li:hover{
     background-color: #a4c67e;
