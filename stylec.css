@@ -24,20 +24,19 @@ a{
 
 header{
     text-align: center;
-    justify-content:center;
     background-image: linear-gradient(to top, #096b2f, #a4c67e);
     font-family: var(--font0);
 }
 .menu{
     display: flex;
     background-image: linear-gradient(to top, #a4c67e, #096b2f);
-    color: var(--cor2);
     font-family: var(--font2);
 }
 .menu li a{
     display: block;
     padding-left: 10px;
     padding-right: 10px;
+    color: var(--cor2);
 }
 .menu li:hover{
     background-color: #a4c67e;
@@ -53,10 +52,6 @@ header{
 }
 .container main{
     flex: 1;
-}
-.content{display: flex;
-    justify-content: center;
-    align-items: center;
 }
 section{display: flex;
         align-items: center;
@@ -113,24 +108,6 @@ form button{padding: 15px;
 form button:hover{background: var(--cor0);
                   color: aliceblue;
                   border-radius: 16px;
-}
-
-
-
-.btn{padding: 15px 55px;
-    cursor: pointer;
-    background: transparent;
-    text-decoration: none;
-    border: 1px solid var(--cor1);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    transition: all 0.5s;
-    margin-bottom: 20px;
-    font-family: var(--font3);
-   }
-.btn:hover{background: var(--cor0);
-           color: aliceblue;
-           border-radius: 16px;
 }
 footer{
     background-image: linear-gradient(to top, #a4c67e, #096b2f);
