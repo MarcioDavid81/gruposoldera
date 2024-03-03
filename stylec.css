@@ -52,13 +52,12 @@ header{
 .container main{
     flex: 1;
 }
-section{display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+section{display: block;
+        margin: 0 auto;
         padding: 10px 45px;
-        width: 93%;
+        width: 400px;
         height: 600px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 section h2{color: rgb(0, 0, 0);
     font-size: 40px;
