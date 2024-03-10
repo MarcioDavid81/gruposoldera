@@ -59,8 +59,8 @@ input{
     display: none;
 }
 .content{
-    height: 520px;
-    width: 935px;
+    height: auto;
+    width: auto;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -76,8 +76,8 @@ input{
     display: flex;
 }
 .bar{
-    width: 70px;
-    height: 17px;
+    width: 20px;
+    height: 15px;
     border: 2px solid #096b2f;
     margin: 6px;
     border-radius: 5px;
