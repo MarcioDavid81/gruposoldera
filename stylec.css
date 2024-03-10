@@ -15,8 +15,9 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;        
-    }
+    list-style: none;
+    box-sizing: border-box;       
+}
 a{
     text-decoration: none;
 }
@@ -29,6 +30,7 @@ header{
 .menu{
     display: flex;
     background-image: linear-gradient(to top, #a4c67e, #096b2f);
+    color: var(--cor2);
     font-family: var(--font2);
 }
 .menu li a{
@@ -54,10 +56,11 @@ header{
 }
 section{display: block;
         margin: 0 auto;
-        padding: 10px 45px;
+        padding: 20px 45px;
         width: 400px;
         height: 600px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
     }
 section h2{color: rgb(0, 0, 0);
     font-size: 40px;

@@ -16,8 +16,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 a{
     text-decoration: none;
@@ -45,14 +44,21 @@ header{
     border-radius: 10px;
     text-decoration: underline;
 }
-article{
-    width: 97.59vw;
+section{
+    padding: 20px 20px;
+    display: flex;
     background-image: linear-gradient(72deg, #a4c67e 1%, #096b2f 99%);
-    align-items: center;
+}
+article{
+    background-image: linear-gradient(244deg, #a4c67e 1%, #096b2f 99%);
     text-align: justify;
     text-indent: 40px;
-    padding: 10px;
+    padding:10px;
     font-family: var(--font3);
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 article h2{
     font-family: var(--font2);
@@ -71,15 +77,12 @@ article h2{
     justify-content: center;
     display: flex;
     align-items: center;
-    position: relative;    
-    width: 98.9vw;
-    height: 100vh;
+    position: relative;
     background-image: linear-gradient(72deg, #a4c67e 1%, #096b2f 99%);
+    padding: 20px 20px;
 }
 .mapbox iframe{
-    display: flex;
-    position: absolute;
-    text-align: center;
+    border-radius: 20px;
 }
 footer{
     background-image: linear-gradient(to top, #a4c67e, #096b2f);
