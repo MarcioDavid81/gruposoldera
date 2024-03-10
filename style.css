@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
     
 }
 a{
@@ -24,7 +25,6 @@ a{
 
 header{
     text-align: center;
-    justify-content:center;
     background-image: linear-gradient(to top, #096b2f, #a4c67e);
     font-family: var(--font0);
 }
