@@ -64,12 +64,12 @@ article h2{
     font-size: 2rem;
     text-align: center;
 }
-.foto{
+picture.foto{
     display: flex;
     justify-content: center;
 }
 .foto img{
-    flex: 1 1 50px;
+    flex: 1 1 200px;
     border-radius: 20px;
 }
 .container{
