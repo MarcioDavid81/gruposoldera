@@ -69,7 +69,7 @@ article h2{
     justify-content: center;
 }
 .foto img{
-    flex: auto;
+    flex: 1 1 50px;
 }
 .container{
     line-height: 2em;
