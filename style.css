@@ -55,8 +55,7 @@ article{
     text-indent: 40px;
     padding:10px;
     font-family: var(--font3);
-    width: auto;
-    height: auto;
+    flex: 0 0 200px;
     margin: 0 auto;
     border-radius: 20px;
 }
