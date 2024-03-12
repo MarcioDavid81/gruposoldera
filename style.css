@@ -69,7 +69,7 @@ picture.foto{
     justify-content: center;
 }
 .foto img{
-    flex: 1 1 200px;
+  
     border-radius: 20px;
 }
 .container{
